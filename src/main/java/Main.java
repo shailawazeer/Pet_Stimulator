@@ -21,6 +21,10 @@ public class Main extends Application {
         Pet loadedPet = SaveLoadManager.loadGame();
         if (loadedPet != null) {
             AchievementManager.checkAchievements(loadedPet);
+
+            System.out.println("Hello");
+
+            System.out.println("Hello");
         }
     }
 
@@ -30,4 +34,3 @@ public class Main extends Application {
 }
 
 
-System.out.println("Hello");
