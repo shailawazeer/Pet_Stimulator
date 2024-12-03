@@ -23,7 +23,6 @@ public class Main extends Application {
             AchievementManager.checkAchievements(loadedPet);
 
             System.out.println("Hello");
-
             System.out.println("Hello");
         }
     }
