@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
+import org.w3c.dom.ls.LSOutput;
 
 public class Main extends Application {
     @Override
@@ -28,3 +29,5 @@ public class Main extends Application {
     }
 }
 
+
+System.out.println("Hello");
